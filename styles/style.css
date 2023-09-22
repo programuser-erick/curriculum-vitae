@@ -32,6 +32,10 @@
     text-align: center;
 }
 
+.parrafo--espaciado{
+    margin-top: 40px;
+}
+
 .presentacion__img{
     width: 300px;
     height: 300px;
@@ -57,7 +61,9 @@
     justify-content: center;
     padding: 2rem;
 }
-
+.ul__lista{
+    list-style-type: none;
+}
 .lista--link{
     color: #EEF0F2;
     margin: 0 3rem;
