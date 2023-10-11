@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* inicio */
+
 .box{
     background-color: #1C2541;
     height: 100vh;
@@ -45,6 +47,12 @@
     border-radius: 50%;
 }
 
+.presentacion__redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+}
 .redes__links{
     text-decoration: none;
     color: #9CFC97;
@@ -67,4 +75,61 @@
 .lista--link{
     color: #EEF0F2;
     margin: 0 3rem;
+}
+
+/* sobre mi */
+.box__titulo{
+    color: #EEF0F2;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-weight: 400;
+}
+.box__info{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info__principal{
+    display: flex;
+    justify-content: space-evenly;
+}
+.principal__parrafo{
+    width: 20%;
+    color: #EEF0F2;
+    text-align: center;
+    font-weight: lighter;
+}
+.info__secundario{
+    display: flex;
+    justify-content: space-evenly;
+}
+.secundario__parrafo{
+    width: 20%;
+    color: #EEF0F2;
+    text-align: center;
+    font-weight: lighter;
+}
+/* Educacion */
+.box__estudios{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.estudios__titulo{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.estudios__secundarios{
+    text-align: center;
+    color: #EEF0F2;
+    font-weight: lighter;
+}
+.estudios__diplomas{
+    text-align: center;
+    color: #EEF0F2;
+    font-weight: lighter;
 }
